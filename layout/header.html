@@ -1,0 +1,9 @@
+<?php $baseDir = basename(dirname($_SERVER['PHP_SELF'])) === 'admin' ? '../' : ''; ?>
+<header class="site-header">
+    <h3>Operator Database</h3>
+    <nav>
+        <a href="<?= $baseDir ?>index.php">Beranda</a>
+        <a href="<?= $baseDir ?>login.php">Login</a>
+        <a href="<?= $baseDir ?>register.php">Register</a>
+    </nav>
+</header>
